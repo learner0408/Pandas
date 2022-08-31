@@ -1,0 +1,60 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Aug 31 00:29:49 2022
+
+@author: ankurbhayana
+"""
+
+import pandas as pd
+import numpy as np
+"""
+
+1) students = pd.read_csv("/Users/ankurbhayana/Desktop/students.csv")
+
+2) print(students.head())
+
+3) print(students.tail())
+
+4) print(students.info())
+
+5) print(students.shape)
+
+6) print(students.size)
+
+7) print(students.sample(n=3))
+
+8) print(students.describe())
+
+9) print(students.describe().T)
+
+10) print(students.nunique())
+
+11) print(students.isna().any())
+
+12) print(students.isnull())
+
+13) print(students.isnull().sum())
+
+14) print(students.columns)
+
+15) print(students.nlargest(2,['id']))
+
+16) print(students.loc[:3,['name']])
+
+17) print(students.iloc[:3,[0]])
+
+18) print(students[['id']].groupby(students['name']).mean())
+
+19) print(students.sort_values(by='name',ascending=False))
+
+20) print(students.query('id>2')[:])
+
+21) print(students['name'].unique())
+
+22) print(students.memory_usage())
+
+23) students.to_csv('/Users/ankurbhayana/Desktop/sample.csv')
+
+"""
+
